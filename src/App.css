@@ -1,0 +1,28 @@
+.clock {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #2f363e;
+  gap: 40px;
+  color: #fff;
+}
+.clock h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.6rem;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 600px) {
+  .clock h1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+}
